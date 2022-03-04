@@ -599,6 +599,11 @@
   .reponav-wrapper .reponav-item.selected {
     background-color: transparent;
   }
+  @media (max-width: 768px) {
+    .PageLayout--responsive-separateRegions.PageLayout--responsive-primary-pane .ActionList-item.ActionList-item--navActive:not(.ActionList-item--danger) {
+      background-color: transparent;
+    }
+  }
   .steps {
     border-color: #343434;
     box-shadow: 0 1px 3px rgba(220, 220, 220, .05);
@@ -8530,6 +8535,11 @@
   .previewable-comment-form .comment-body,
   .reponav-wrapper .reponav-item.selected {
     background-color: transparent;
+  }
+  @media (max-width: 768px) {
+    .PageLayout--responsive-separateRegions.PageLayout--responsive-primary-pane .ActionList-item.ActionList-item--navActive:not(.ActionList-item--danger) {
+      background-color: transparent;
+    }
   }
   .steps {
     border-color: #343434;
