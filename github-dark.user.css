@@ -735,7 +735,8 @@
       --color-calendar-graph-day-L4-border: rgba(220, 220, 220, .06);
     }
   }
-  .global-focus-styles .upload-enabled.focused .form-control {
+  .global-focus-styles .upload-enabled.focused .form-control,
+  .global-focus-styles :target {
     box-shadow: none;
   }
   .hx_breadcrumb-header .feature-preview-indicator,
@@ -8674,7 +8675,8 @@
       --color-calendar-graph-day-L4-border: rgba(220, 220, 220, .06);
     }
   }
-  .global-focus-styles .upload-enabled.focused .form-control {
+  .global-focus-styles .upload-enabled.focused .form-control,
+  .global-focus-styles :target {
     box-shadow: none;
   }
   .hx_breadcrumb-header .feature-preview-indicator,
