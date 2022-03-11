@@ -777,8 +777,13 @@
       --color-calendar-graph-day-L4-border: rgba(220, 220, 220, .06);
     }
   }
+  .global-focus-styles .actions-job-summary:target,
+  .global-focus-styles .discussion-nested-comment-timeline-item:target,
+  .global-focus-styles .file:target,
+  .global-focus-styles .review-comment:target,
   .global-focus-styles .upload-enabled.focused .form-control,
-  .global-focus-styles :target {
+  .global-focus-styles :target .timeline-comment,
+  .global-focus-styles :target .timeline-comment-group .timeline-comment {
     box-shadow: none;
   }
   .hx_breadcrumb-header .feature-preview-indicator,
@@ -8759,8 +8764,13 @@
       --color-calendar-graph-day-L4-border: rgba(220, 220, 220, .06);
     }
   }
+  .global-focus-styles .actions-job-summary:target,
+  .global-focus-styles .discussion-nested-comment-timeline-item:target,
+  .global-focus-styles .file:target,
+  .global-focus-styles .review-comment:target,
   .global-focus-styles .upload-enabled.focused .form-control,
-  .global-focus-styles :target {
+  .global-focus-styles :target .timeline-comment,
+  .global-focus-styles :target .timeline-comment-group .timeline-comment {
     box-shadow: none;
   }
   .hx_breadcrumb-header .feature-preview-indicator,
