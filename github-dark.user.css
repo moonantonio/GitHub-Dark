@@ -1104,7 +1104,12 @@
   .sponsors-goal-progress-bar {
     background-color: #c49;
   }
-  .sponsors-goal-completed-bar, .sponsors-goal-progress-bar:hover {
+  @media (prefers-reduced-motion: no-preference) {
+    .sponsors-goal-progress-bar:hover {
+      background: linear-gradient(90deg, #cb4 0%, #c49 17%, #b34bff 34%, #01feff 51%, #cb4 68%, #c49 85%, #b34bff 100%);
+    }
+  }
+  .sponsors-goal-completed-bar {
     background: linear-gradient(90deg, #cb4 0%, #c49 17%, #b34bff 34%, #01feff 51%, #cb4 68%, #c49 85%, #b34bff 100%);
   }
   .team-label-ldap, .tree-finder-input, .tree-finder-input:focus {
@@ -1223,17 +1228,6 @@
   }
   .fade-img-to-white-bg::after {
     background: linear-gradient(to top, #181818 0%, transparent 100%);
-  }
-  .home-nav.on .home-nav-item.selected {
-    border-color: #4f8cc9;
-  }
-  .home-nav-trigger {
-    background: none;
-  }
-  @media (min-width: 768px) {
-    .home-nav-item.selected {
-      border-color: #4f8cc9;
-    }
   }
   .home-git-log-light .home-git-icon > circle,
   .home-git-log-light .home-git-icon > rect {
@@ -9091,7 +9085,12 @@
   .sponsors-goal-progress-bar {
     background-color: #c49;
   }
-  .sponsors-goal-completed-bar, .sponsors-goal-progress-bar:hover {
+  @media (prefers-reduced-motion: no-preference) {
+    .sponsors-goal-progress-bar:hover {
+      background: linear-gradient(90deg, #cb4 0%, #c49 17%, #b34bff 34%, #01feff 51%, #cb4 68%, #c49 85%, #b34bff 100%);
+    }
+  }
+  .sponsors-goal-completed-bar {
     background: linear-gradient(90deg, #cb4 0%, #c49 17%, #b34bff 34%, #01feff 51%, #cb4 68%, #c49 85%, #b34bff 100%);
   }
   .team-label-ldap, .tree-finder-input, .tree-finder-input:focus {
