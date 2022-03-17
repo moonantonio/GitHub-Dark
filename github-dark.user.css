@@ -705,6 +705,7 @@
   .Overlay-closeButton {
     background-color: transparent;
   }
+  .global-focus-styles .upload-enabled.focused .form-control,
   .hx_flex-avatar-stack-item .avatar {
     box-shadow: none;
   }
@@ -776,15 +777,6 @@
       --color-calendar-graph-day-L3-border: rgba(220, 220, 220, .06);
       --color-calendar-graph-day-L4-border: rgba(220, 220, 220, .06);
     }
-  }
-  .global-focus-styles .actions-job-summary:target,
-  .global-focus-styles .discussion-nested-comment-timeline-item:target,
-  .global-focus-styles .file:target,
-  .global-focus-styles .review-comment:target,
-  .global-focus-styles .upload-enabled.focused .form-control,
-  .global-focus-styles :target .timeline-comment,
-  .global-focus-styles :target .timeline-comment-group .timeline-comment {
-    box-shadow: none;
   }
   .hx_breadcrumb-header .feature-preview-indicator,
   .hx_breadcrumb-header .notification-indicator .mail-status {
@@ -3555,9 +3547,6 @@
   html.refined-github {
     --rgh-background: var(--color-canvas-default, var(--color-bg-canvas, #181818));
   }
-  html.refined-github .markdown-body del {
-    color: var(--color-fg-subtle, var(--color-text-tertiary, #9b9b9b));
-  }
   html.refined-github .footer > div:nth-last-child(2) a {
     color: var(--color-text-disabled, #9b9b9b);
   }
@@ -3568,9 +3557,6 @@
   }
   html.refined-github .rgh-clean-dashboard .news > .f4 + div .Box {
     background: none;
-  }
-  html.refined-github .rgh-low-quality-comments-note {
-    color: var(--color-fg-muted, var(--color-text-secondary, #afafaf));
   }
   html.refined-github .rgh-no-navigation-highlight .Box-row.navigation-focus,
   html.refined-github .rgh-no-navigation-highlight .list-group-item.navigation-focus,
@@ -3608,6 +3594,9 @@
   html.refined-github .rgh-table-input:hover .selected div {
     border-color: /*[[base-color]]*/;
     background-color: var(--color-diff-blob-hunk-num-bg, #182030);
+  }
+  html.refined-github .rgh-low-quality-comments-note {
+    color: var(--color-fg-muted, var(--color-text-secondary, #afafaf));
   }
   /* end refined-github rules */
   /* begin zenhub rules */
@@ -7526,10 +7515,6 @@
   .octotree-sidebar html[data-octotree-theme] .octotree-sidebar.octotree-github-sidebar .octotree-bookmark__filters {
     border-bottom-color: #afafaf;
   }
-  .octotree-sidebar .octotree-branches__header,
-  .octotree-sidebar .octotree-pr-list__header {
-    border-bottom: 1px solid var(--color-border-default, var(--color-border-primary, #343434));
-  }
   .octotree-sidebar html[data-octotree-theme] .octotree-sidebar.octotree-github-sidebar .octotree-bookmark__item:hover {
     background-color: #c6c6c6;
   }
@@ -7548,6 +7533,9 @@
   }
   .octotree-sidebar .octotree-branches-activator__icon i::before {
     color: hsla(0, 0%, 0%, .5);
+  }
+  .octotree-sidebar .octotree-branches__header {
+    border-bottom: 1px solid var(--color-border-default, var(--color-border-primary, #343434));
   }
   .octotree-sidebar .octotree-branches__loading i {
     border-color: #9b9b9b;
@@ -7574,7 +7562,9 @@
   .octotree-sidebar .octotree-collapse-tree.is-collapsed i::before {
     color: hsla(0, 0%, 0%, .5);
   }
-  .octotree-sidebar .octotree-collapse-tree.is-collapsed i:hover::before {
+  .octotree-sidebar .octotree-collapse-tree.is-collapsed i:hover::before,
+  .octotree-sidebar .octotree-lazyload-toggle.octotree-lazyload-active i::before,
+  .octotree-sidebar .octotree-lazyload-toggle i:hover::before {
     color: #fff;
   }
   .octotree-sidebar.octotree-github-sidebar.octotree-sidebar.octotree-github-sidebar .octotree-toggle-dock-button .octotree-icon-dock:hover::before {
@@ -7594,10 +7584,6 @@
   }
   .octotree-sidebar .octotree-lazyload-toggle i::before {
     color: hsla(0, 0%, 0%, .5);
-  }
-  .octotree-sidebar .octotree-lazyload-toggle.octotree-lazyload-active i::before,
-  .octotree-sidebar .octotree-lazyload-toggle i:hover::before {
-    color: #fff;
   }
   .octotree-sidebar html[data-octotree-theme] .octotree-settings-view .octotree-view-body .octotree-ma .octotree-ma-add:hover::before {
     color: #202020;
@@ -7626,6 +7612,9 @@
   }
   .octotree-sidebar .octotree-pr-list-activator i:hover::before {
     color: #fff;
+  }
+  .octotree-sidebar .octotree-pr-list__header {
+    border-bottom: 1px solid var(--color-border-default, var(--color-border-primary, #343434));
   }
   .octotree-sidebar .octotree-pr-list__status--draft i::before {
     color: #9b9b9b;
@@ -8700,6 +8689,7 @@
   .Overlay-closeButton {
     background-color: transparent;
   }
+  .global-focus-styles .upload-enabled.focused .form-control,
   .hx_flex-avatar-stack-item .avatar {
     box-shadow: none;
   }
@@ -8771,15 +8761,6 @@
       --color-calendar-graph-day-L3-border: rgba(220, 220, 220, .06);
       --color-calendar-graph-day-L4-border: rgba(220, 220, 220, .06);
     }
-  }
-  .global-focus-styles .actions-job-summary:target,
-  .global-focus-styles .discussion-nested-comment-timeline-item:target,
-  .global-focus-styles .file:target,
-  .global-focus-styles .review-comment:target,
-  .global-focus-styles .upload-enabled.focused .form-control,
-  .global-focus-styles :target .timeline-comment,
-  .global-focus-styles :target .timeline-comment-group .timeline-comment {
-    box-shadow: none;
   }
   .hx_breadcrumb-header .feature-preview-indicator,
   .hx_breadcrumb-header .notification-indicator .mail-status {
