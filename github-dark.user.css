@@ -660,8 +660,7 @@
   .social-reaction-summary-item {
     background-color: transparent;
   }
-  .reactions-with-gap .reaction-summary-item:not(.add-reaction-btn),
-  .social-reaction-summary-item {
+  .reactions-with-gap .reaction-summary-item, .social-reaction-summary-item {
     border-color: var(--color-border-default, #246);
   }
   .new-reactions-dropdown .dropdown-menu-reactions::after,
@@ -971,7 +970,7 @@
   .team-discussions .previewable-comment-form .toolbar-commenting.toolbar-commenting.toolbar-commenting {
     background-color: transparent;
   }
-  .discussion-post .reaction-summary-item:not(.add-reaction-btn) {
+  .discussion-post .reaction-summary-item {
     border-color: var(--color-border-default, #246);
   }
   .team-discussion-new-post .review-thread-reply-button:disabled {
@@ -1080,7 +1079,7 @@
   .user-profile-nav {
     box-shadow: none;
   }
-  .review-comment .reaction-summary-item:not(.add-reaction-btn) {
+  .review-comment .reaction-summary-item {
     border-color: var(--color-border-default, #246);
   }
   .timeout {
@@ -8689,8 +8688,7 @@
   .social-reaction-summary-item {
     background-color: transparent;
   }
-  .reactions-with-gap .reaction-summary-item:not(.add-reaction-btn),
-  .social-reaction-summary-item {
+  .reactions-with-gap .reaction-summary-item, .social-reaction-summary-item {
     border-color: var(--color-border-default, #246);
   }
   .new-reactions-dropdown .dropdown-menu-reactions::after,
@@ -9000,7 +8998,7 @@
   .team-discussions .previewable-comment-form .toolbar-commenting.toolbar-commenting.toolbar-commenting {
     background-color: transparent;
   }
-  .discussion-post .reaction-summary-item:not(.add-reaction-btn) {
+  .discussion-post .reaction-summary-item {
     border-color: var(--color-border-default, #246);
   }
   .team-discussion-new-post .review-thread-reply-button:disabled {
@@ -9109,7 +9107,7 @@
   .user-profile-nav {
     box-shadow: none;
   }
-  .review-comment .reaction-summary-item:not(.add-reaction-btn) {
+  .review-comment .reaction-summary-item {
     border-color: var(--color-border-default, #246);
   }
   .timeout {
