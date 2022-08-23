@@ -1074,9 +1074,6 @@
   .trial-banner-notice {
     background-image: linear-gradient(180deg, /*[[base-color]]*/ 0%, #4f8cc9 100%);
   }
-  .theme-toggle {
-    background: none;
-  }
   @media print {
     .btn:not(.btn-outline), .State {
       background: none;
@@ -9453,9 +9450,6 @@
   .trial-banner-notice {
     background-image: linear-gradient(180deg, /*[[base-color]]*/ 0%, #4f8cc9 100%);
   }
-  .theme-toggle {
-    background: none;
-  }
   @media print {
     .btn:not(.btn-outline), .State {
       background: none;
@@ -13033,8 +13027,7 @@
   .subnav-item[aria-selected=true]:focus:not(:focus-visible) {
     box-shadow: none;
   }
-  .Overlay-backdrop--anchor, .Overlay-closeButton, .SegmentedControl-button,
-  .UnderlineNav-item {
+  .Overlay-backdrop--anchor, .Overlay-closeButton, .UnderlineNav-item {
     background-color: transparent;
   }
   @media (max-width: 767.98px) {
