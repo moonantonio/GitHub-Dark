@@ -443,7 +443,8 @@
   .Button--primary:focus:not(:focus-visible) {
     box-shadow: none;
   }
-  .ActionList-item {
+  .ActionList-item, .Button--link.Button--disabled, .Button--link:disabled,
+  .Button--link[aria-disabled=true] {
     background-color: transparent;
   }
   @media (hover: hover) {
@@ -8830,7 +8831,8 @@
   .Button--primary:focus:not(:focus-visible) {
     box-shadow: none;
   }
-  .ActionList-item {
+  .ActionList-item, .Button--link.Button--disabled, .Button--link:disabled,
+  .Button--link[aria-disabled=true] {
     background-color: transparent;
   }
   @media (hover: hover) {
