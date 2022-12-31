@@ -5966,6 +5966,7 @@
       --color-scale-gray-0: #202020;
     }
   }
+  body.gitako-ready .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item .actions .context-menu,
   body.gitako-ready .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item .actions .find-in-folder-button,
   body.gitako-ready .gitako-side-bar .gitako-side-bar-body .gitako-side-bar-content .file-explorer .node-item .actions .go-to-button,
   body.gitako-ready .gitako-toggle-show-button-wrapper .gitako-toggle-show-button,
