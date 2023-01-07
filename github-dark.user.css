@@ -4349,7 +4349,6 @@
   html[class*="zh-"] .zhc-issue-cards:focus {
     box-shadow: none;
   }
-  html[class*="zh-"] .zhc-sidebar-assignee-selector .zhc-sidebar-assignee-selector_active_assignees,
   html[class*="zh-"] .zhc-sidebar-pipeline-selector__button,
   html[class*="zh-"] .zhc-sidebar-selector {
     background: none;
@@ -4673,6 +4672,7 @@
   html[class*="zh-"] .hBEqqa58ejgcG16tdrTO {
     background-image: none;
   }
+  html[class*="zh-"] .iXNhzD8a1gKJRudpdkT2,
   html[class*="zh-"] .sNtOHDfndl_Rfn9iHuPS {
     background: none;
   }
@@ -4828,6 +4828,7 @@
     box-shadow: none;
   }
   html[class*="zh-"] .bCotYvHGAmRQbCzKzyO5,
+  html[class*="zh-"] .JurJO_BpfO3FqlqfVumy,
   html[class*="zh-"] .vNmh9WTyDWbzzBzhcFuy {
     background: none;
   }
