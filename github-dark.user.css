@@ -12819,6 +12819,7 @@
     --color-btn-outline-selected-text: #181818;
     --color-btn-danger-selected-text: #181818;
     --color-underlinenav-icon: #242424;
+    --color-tree-view-item-directory-fill: #242424;
     --color-fg-default: #242424;
     --color-fg-muted: #242424;
     --color-neutral-emphasis-plus: #181818;
@@ -12869,6 +12870,7 @@
       --color-btn-outline-selected-text: #181818;
       --color-btn-danger-selected-text: #181818;
       --color-underlinenav-icon: #242424;
+      --color-tree-view-item-directory-fill: #242424;
       --color-fg-default: #242424;
       --color-fg-muted: #242424;
       --color-neutral-emphasis-plus: #181818;
@@ -12920,6 +12922,7 @@
       --color-btn-outline-selected-text: #181818;
       --color-btn-danger-selected-text: #181818;
       --color-underlinenav-icon: #242424;
+      --color-tree-view-item-directory-fill: #242424;
       --color-fg-default: #242424;
       --color-fg-muted: #242424;
       --color-neutral-emphasis-plus: #181818;
